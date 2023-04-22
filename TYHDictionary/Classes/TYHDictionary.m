@@ -1,0 +1,72 @@
+//
+//  TYHDictionary.m
+//  TYHDictionary
+//
+//  Created by yuhua Tang on 2023/4/21.
+//
+
+#import "TYHDictionary.h"
+@interface TYHDefinitionValue : NSObject
+@property (readonly) NSAttributedString* definition;
+@property (readonly) NSString* longDefinition;
+@end
+
+@implementation TYHDictionary
+static TYHDictionary *sharedDictManager(void) {
+    static TYHDictionary *obj;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        NSString *className = [NSString stringWithFormat:@"_UI%@%@",@"Dictionary",@"Manager"];
+        Class aClass = NSClassFromString(className);
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
+        obj = [aClass performSelector:@selector(assetManager)];
+#pragma clang diagnostic pop
+    });
+    return obj;
+};
+
+static SEL sharedSEL(void) {
+    static SEL selector;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        NSString *s = [NSString stringWithFormat:@"%@%@",@"_definition",@"ValuesForTerm:"] ;
+        selector = NSSelectorFromString(s);
+    });
+    return selector;
+};
+
++ (NSArray<NSAttributedString *> *)definitionForTerm:(NSString *)term {
+    SEL selector = sharedSEL();
+    if(![sharedDictManager() respondsToSelector:selector]) {
+        return nil;
+    }
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+    NSArray *definitions = [sharedDictManager() performSelector:selector withObject:term];
+#pragma clang diagnostic pop
+    NSMutableArray *result = @[].mutableCopy;
+    for(TYHDefinitionValue *item in definitions) {
+        NSAttributedString *def = [item definition];
+        [result addObject:def];
+    }
+    return result;
+}
+
++ (NSArray<NSString *> *)longDefinitionForTerm:(NSString *)term {
+    SEL selector = sharedSEL();
+    if(![sharedDictManager() respondsToSelector:selector]) {
+        return nil;
+    }
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+    NSArray *definitions = [sharedDictManager() performSelector:selector withObject:term];
+#pragma clang diagnostic pop
+    NSMutableArray *result = @[].mutableCopy;
+    for(TYHDefinitionValue *item in definitions) {
+        NSString *def = [item longDefinition];
+        [result addObject:def];
+    }
+    return result;
+}
+@end

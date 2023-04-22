@@ -1,10 +1,10 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '11.0'
 
 target 'TYHDictionary_Example' do
   pod 'TYHDictionary', :path => '../'
-
+  pod 'TYHTestUtils',:git=>'https://github.com/pencilCool/TYHTestUtils.git'
   target 'TYHDictionary_Tests' do
     inherit! :search_paths
 

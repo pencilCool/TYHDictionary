@@ -1,0 +1,6 @@
+framework module TYHDictionary {
+  umbrella header "TYHDictionary-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,977 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0002BD67788B6E8187276CD85FB1A052 /* Pods-TYHDictionary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B66A81AC6A35547B8BF9470EABBB49 /* Pods-TYHDictionary_Tests-dummy.m */; };
+		11A73E37CEAF5B8B50EB9379A0DD06C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		176F122AFB25BE8DA7A513BBB75F0AAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		27A76FF07358849205356694D4B55470 /* TYHDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 4334B46E7EEBD51AC9576FBD8C279ECD /* TYHDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FE4DFFE835757072858A8B3EE3C05A7 /* TYHTestUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 414D4F24176E1CAFD6B041EF3AC14704 /* TYHTestUtils-dummy.m */; };
+		625C597A6D5170F4F830B003DB945605 /* Pods-TYHDictionary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81133C6B302E3FDC09F85E2CF2FE8E79 /* Pods-TYHDictionary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A1E4C2AA50EEA3E3244F66AEAA6B0B6 /* BaseTestActionTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 991D1CF550EFB62FDE156B2E3D362B6B /* BaseTestActionTableVC.m */; };
+		82B4ACB54D8B692D76DEB5A0882FB396 /* TYHDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F05FC0E2ED0EC0594675DE6E30D4BA0E /* TYHDictionary.m */; };
+		8B06A4AD3B9F34B08D988C7C061367B2 /* TYHDictionary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C84C07B5A1696BFEB4BD62D100FC6ED /* TYHDictionary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		920160F6241B50FA37DD5744B4936C9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B4EA44F311D0DBE46C249D61E71C6829 /* TYHDictionary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 510C4705E819E405C9280D8B3F652800 /* TYHDictionary-dummy.m */; };
+		CC7C60F618E5B31EBED08810994E0B58 /* TYHTestUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F557C6DF5507992DF2AD707A5F2B06 /* TYHTestUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD35A9D3D8EA5560948B143D343B35B0 /* Pods-TYHDictionary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60665C8C0ADA63F5C8562250A77DC34E /* Pods-TYHDictionary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D51E1F9657F18B22B6EF9CB1AFC3FE41 /* Pods-TYHDictionary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB63714EE50D1B1B3BF4BF8849448AC /* Pods-TYHDictionary_Example-dummy.m */; };
+		E46B2926245C6E5D8DE4536608A75B6C /* BaseTestActionTableVC.h in Headers */ = {isa = PBXBuildFile; fileRef = E147396F5AFAEF32CB3AAEC31A025C45 /* BaseTestActionTableVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAED1608AFE11F9D748E9448FC8C630D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33F28841375F23ED738B0E737F994B52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FA019264226AC1EDE7198FB0D12969C;
+			remoteInfo = TYHTestUtils;
+		};
+		8DFF76F1CF30862A402DD56534564A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1111E6B15AF7570B354A5CA5EFE4F476;
+			remoteInfo = "Pods-TYHDictionary_Example";
+		};
+		F19C4C0C704EF3FE429D236123E0E2FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42426EB30CA686039F8C8663D43AA1D6;
+			remoteInfo = TYHDictionary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BA78B12AEDC2845CFBB18B61EB79A2 /* Pods-TYHDictionary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYHDictionary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		00DA9EF371561CFDEA25F05EF915DFF2 /* Pods-TYHDictionary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TYHDictionary_Example.modulemap"; sourceTree = "<group>"; };
+		17F89C034283F08E1B4793C738885E4C /* Pods-TYHDictionary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYHDictionary_Example-Info.plist"; sourceTree = "<group>"; };
+		1BB63714EE50D1B1B3BF4BF8849448AC /* Pods-TYHDictionary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYHDictionary_Example-dummy.m"; sourceTree = "<group>"; };
+		1EB2841EA244F0A1A82A8F57E23FE270 /* TYHDictionary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYHDictionary.release.xcconfig; sourceTree = "<group>"; };
+		229ADFDDFA75F8A5B7B22EF17DF55FD3 /* Pods-TYHDictionary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYHDictionary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		22F3A82C65B7CA30547C21C7BE3F26EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		35606321BD18D0564E8E686BFDFC02AC /* TYHTestUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TYHTestUtils-Info.plist"; sourceTree = "<group>"; };
+		36E581210DC3A995EE3B5406290F0664 /* TYHDictionary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYHDictionary.debug.xcconfig; sourceTree = "<group>"; };
+		414D4F24176E1CAFD6B041EF3AC14704 /* TYHTestUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYHTestUtils-dummy.m"; sourceTree = "<group>"; };
+		4334B46E7EEBD51AC9576FBD8C279ECD /* TYHDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYHDictionary.h; path = TYHDictionary/Classes/TYHDictionary.h; sourceTree = "<group>"; };
+		467F50E696D3B435FED2DB4F300193FE /* Pods-TYHDictionary_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TYHDictionary_Tests"; path = Pods_TYHDictionary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F74B48468FB5EA724396294005D38CA /* Pods-TYHDictionary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYHDictionary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4FC5F9115F1374514D7CDAB17C02A214 /* TYHDictionary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYHDictionary-prefix.pch"; sourceTree = "<group>"; };
+		510C4705E819E405C9280D8B3F652800 /* TYHDictionary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYHDictionary-dummy.m"; sourceTree = "<group>"; };
+		57644FE776A5C4AAF34681136E00AD51 /* TYHDictionary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TYHDictionary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5A80853DA61D3B42A4C0D0487A7017E2 /* Pods-TYHDictionary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYHDictionary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C29C4415F3E29E792D1D09F6CB52CA7 /* Pods-TYHDictionary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TYHDictionary_Tests.modulemap"; sourceTree = "<group>"; };
+		60665C8C0ADA63F5C8562250A77DC34E /* Pods-TYHDictionary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYHDictionary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6C84C07B5A1696BFEB4BD62D100FC6ED /* TYHDictionary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYHDictionary-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		756434C2B475E7043A471F57E91F14A1 /* TYHTestUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TYHTestUtils.modulemap; sourceTree = "<group>"; };
+		7CE557E82CE634D7A84B8B0600B73032 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7D53892F5C4B83D21270B27B9BE39B13 /* TYHTestUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYHTestUtils.release.xcconfig; sourceTree = "<group>"; };
+		804F845C69BAD085E2FAD593458E1EBB /* TYHTestUtils */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TYHTestUtils; path = TYHTestUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81133C6B302E3FDC09F85E2CF2FE8E79 /* Pods-TYHDictionary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYHDictionary_Example-umbrella.h"; sourceTree = "<group>"; };
+		8707D267800744000A56D8F2A7ABC7AA /* Pods-TYHDictionary_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TYHDictionary_Example"; path = Pods_TYHDictionary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0F3933387FE8173D4893C471F942C5 /* Pods-TYHDictionary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYHDictionary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9214C187F0EB648A404D6B52A853AA72 /* TYHTestUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYHTestUtils-prefix.pch"; sourceTree = "<group>"; };
+		954B6C51504DE570D8F87CB1B84A783D /* TYHTestUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYHTestUtils.debug.xcconfig; sourceTree = "<group>"; };
+		95F557C6DF5507992DF2AD707A5F2B06 /* TYHTestUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYHTestUtils-umbrella.h"; sourceTree = "<group>"; };
+		986C4E480B4642688D8ED97F2D27EEF5 /* Pods-TYHDictionary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYHDictionary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		991D1CF550EFB62FDE156B2E3D362B6B /* BaseTestActionTableVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseTestActionTableVC.m; path = TYHTestUtils/Classes/BaseTestActionTableVC.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC3709F3BC4F5F528FE6B5648DAE44AC /* Pods-TYHDictionary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYHDictionary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE455639577500B8378288809C74F1E6 /* TYHDictionary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TYHDictionary.modulemap; sourceTree = "<group>"; };
+		C1B66A81AC6A35547B8BF9470EABBB49 /* Pods-TYHDictionary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYHDictionary_Tests-dummy.m"; sourceTree = "<group>"; };
+		CC7136924CD718CA0139096BB414A7AE /* Pods-TYHDictionary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYHDictionary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF1478A701686F3C1E2603F6E1468E86 /* Pods-TYHDictionary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYHDictionary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E147396F5AFAEF32CB3AAEC31A025C45 /* BaseTestActionTableVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseTestActionTableVC.h; path = TYHTestUtils/Classes/BaseTestActionTableVC.h; sourceTree = "<group>"; };
+		E212927A7B0B1C138BDC5B03E8023E9F /* TYHDictionary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TYHDictionary-Info.plist"; sourceTree = "<group>"; };
+		E7B5A761BFEDF7F0DDB81B294F4E6E5B /* TYHDictionary */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TYHDictionary; path = TYHDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AAAF819FC66EA3C8F228EC6F313F70 /* Pods-TYHDictionary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYHDictionary_Tests-Info.plist"; sourceTree = "<group>"; };
+		F05FC0E2ED0EC0594675DE6E30D4BA0E /* TYHDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYHDictionary.m; path = TYHDictionary/Classes/TYHDictionary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24ABDAE55780579724652F1781B8784D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920160F6241B50FA37DD5744B4936C9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8C050E70CEE7CD9B8F0BB2E2B607DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176F122AFB25BE8DA7A513BBB75F0AAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D6F5D8C82F3F119E99CFC6DAC4195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAED1608AFE11F9D748E9448FC8C630D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFECF242AF64A8D17AC6C4C1C5E8F926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A73E37CEAF5B8B50EB9379A0DD06C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0514B18DC68710F82CE418207024FCD4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7CE557E82CE634D7A84B8B0600B73032 /* LICENSE */,
+				22F3A82C65B7CA30547C21C7BE3F26EC /* README.md */,
+				57644FE776A5C4AAF34681136E00AD51 /* TYHDictionary.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		305E57FEA914738E1F26DF041D294787 /* TYHTestUtils */ = {
+			isa = PBXGroup;
+			children = (
+				E147396F5AFAEF32CB3AAEC31A025C45 /* BaseTestActionTableVC.h */,
+				991D1CF550EFB62FDE156B2E3D362B6B /* BaseTestActionTableVC.m */,
+				6CD642E863417C4176CFD06D2FFF011E /* Support Files */,
+			);
+			name = TYHTestUtils;
+			path = TYHTestUtils;
+			sourceTree = "<group>";
+		};
+		54C9B23A11322EA7FC72D3A30D5152AF /* Pods-TYHDictionary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5C29C4415F3E29E792D1D09F6CB52CA7 /* Pods-TYHDictionary_Tests.modulemap */,
+				CC7136924CD718CA0139096BB414A7AE /* Pods-TYHDictionary_Tests-acknowledgements.markdown */,
+				AC3709F3BC4F5F528FE6B5648DAE44AC /* Pods-TYHDictionary_Tests-acknowledgements.plist */,
+				C1B66A81AC6A35547B8BF9470EABBB49 /* Pods-TYHDictionary_Tests-dummy.m */,
+				E9AAAF819FC66EA3C8F228EC6F313F70 /* Pods-TYHDictionary_Tests-Info.plist */,
+				60665C8C0ADA63F5C8562250A77DC34E /* Pods-TYHDictionary_Tests-umbrella.h */,
+				5A80853DA61D3B42A4C0D0487A7017E2 /* Pods-TYHDictionary_Tests.debug.xcconfig */,
+				DF1478A701686F3C1E2603F6E1468E86 /* Pods-TYHDictionary_Tests.release.xcconfig */,
+			);
+			name = "Pods-TYHDictionary_Tests";
+			path = "Target Support Files/Pods-TYHDictionary_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6CD642E863417C4176CFD06D2FFF011E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				756434C2B475E7043A471F57E91F14A1 /* TYHTestUtils.modulemap */,
+				414D4F24176E1CAFD6B041EF3AC14704 /* TYHTestUtils-dummy.m */,
+				35606321BD18D0564E8E686BFDFC02AC /* TYHTestUtils-Info.plist */,
+				9214C187F0EB648A404D6B52A853AA72 /* TYHTestUtils-prefix.pch */,
+				95F557C6DF5507992DF2AD707A5F2B06 /* TYHTestUtils-umbrella.h */,
+				954B6C51504DE570D8F87CB1B84A783D /* TYHTestUtils.debug.xcconfig */,
+				7D53892F5C4B83D21270B27B9BE39B13 /* TYHTestUtils.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TYHTestUtils";
+			sourceTree = "<group>";
+		};
+		800C5FB05A0C6A49154A7A699D8933CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE455639577500B8378288809C74F1E6 /* TYHDictionary.modulemap */,
+				510C4705E819E405C9280D8B3F652800 /* TYHDictionary-dummy.m */,
+				E212927A7B0B1C138BDC5B03E8023E9F /* TYHDictionary-Info.plist */,
+				4FC5F9115F1374514D7CDAB17C02A214 /* TYHDictionary-prefix.pch */,
+				6C84C07B5A1696BFEB4BD62D100FC6ED /* TYHDictionary-umbrella.h */,
+				36E581210DC3A995EE3B5406290F0664 /* TYHDictionary.debug.xcconfig */,
+				1EB2841EA244F0A1A82A8F57E23FE270 /* TYHDictionary.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TYHDictionary";
+			sourceTree = "<group>";
+		};
+		8B958A8EAC31D28EB1C952DF77739B10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				305E57FEA914738E1F26DF041D294787 /* TYHTestUtils */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E71E9991A129C648369D29749700F47 /* Pods-TYHDictionary_Example */ = {
+			isa = PBXGroup;
+			children = (
+				00DA9EF371561CFDEA25F05EF915DFF2 /* Pods-TYHDictionary_Example.modulemap */,
+				8C0F3933387FE8173D4893C471F942C5 /* Pods-TYHDictionary_Example-acknowledgements.markdown */,
+				229ADFDDFA75F8A5B7B22EF17DF55FD3 /* Pods-TYHDictionary_Example-acknowledgements.plist */,
+				1BB63714EE50D1B1B3BF4BF8849448AC /* Pods-TYHDictionary_Example-dummy.m */,
+				4F74B48468FB5EA724396294005D38CA /* Pods-TYHDictionary_Example-frameworks.sh */,
+				17F89C034283F08E1B4793C738885E4C /* Pods-TYHDictionary_Example-Info.plist */,
+				81133C6B302E3FDC09F85E2CF2FE8E79 /* Pods-TYHDictionary_Example-umbrella.h */,
+				986C4E480B4642688D8ED97F2D27EEF5 /* Pods-TYHDictionary_Example.debug.xcconfig */,
+				00BA78B12AEDC2845CFBB18B61EB79A2 /* Pods-TYHDictionary_Example.release.xcconfig */,
+			);
+			name = "Pods-TYHDictionary_Example";
+			path = "Target Support Files/Pods-TYHDictionary_Example";
+			sourceTree = "<group>";
+		};
+		9FCEC6D769675772234D9326476CC86B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F89BA4E6C330322AFAAC54B495D98DAB /* TYHDictionary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A1FDE5C46BC887B26675A0E9349E90C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8707D267800744000A56D8F2A7ABC7AA /* Pods-TYHDictionary_Example */,
+				467F50E696D3B435FED2DB4F300193FE /* Pods-TYHDictionary_Tests */,
+				E7B5A761BFEDF7F0DDB81B294F4E6E5B /* TYHDictionary */,
+				804F845C69BAD085E2FAD593458E1EBB /* TYHTestUtils */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF6E500FD674ED6CE7E381AD4D85D2F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E71E9991A129C648369D29749700F47 /* Pods-TYHDictionary_Example */,
+				54C9B23A11322EA7FC72D3A30D5152AF /* Pods-TYHDictionary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9FCEC6D769675772234D9326476CC86B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8B958A8EAC31D28EB1C952DF77739B10 /* Pods */,
+				A1FDE5C46BC887B26675A0E9349E90C2 /* Products */,
+				BF6E500FD674ED6CE7E381AD4D85D2F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F89BA4E6C330322AFAAC54B495D98DAB /* TYHDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				4334B46E7EEBD51AC9576FBD8C279ECD /* TYHDictionary.h */,
+				F05FC0E2ED0EC0594675DE6E30D4BA0E /* TYHDictionary.m */,
+				0514B18DC68710F82CE418207024FCD4 /* Pod */,
+				800C5FB05A0C6A49154A7A699D8933CA /* Support Files */,
+			);
+			name = TYHDictionary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13EBEC76CAFBF490BB4FAEB4C48FC6F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A76FF07358849205356694D4B55470 /* TYHDictionary.h in Headers */,
+				8B06A4AD3B9F34B08D988C7C061367B2 /* TYHDictionary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21141D4DD8E951E5F5083EF9BFF40F79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46B2926245C6E5D8DE4536608A75B6C /* BaseTestActionTableVC.h in Headers */,
+				CC7C60F618E5B31EBED08810994E0B58 /* TYHTestUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A338EF1FC83C971BF4F7822DEF32FA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD35A9D3D8EA5560948B143D343B35B0 /* Pods-TYHDictionary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791EE1DDFC89235DEEB599EAF4DBC9FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625C597A6D5170F4F830B003DB945605 /* Pods-TYHDictionary_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1111E6B15AF7570B354A5CA5EFE4F476 /* Pods-TYHDictionary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD2BCE6C14301BF9C593B8428E1FAA5 /* Build configuration list for PBXNativeTarget "Pods-TYHDictionary_Example" */;
+			buildPhases = (
+				791EE1DDFC89235DEEB599EAF4DBC9FC /* Headers */,
+				2B8B1B2F8E7902EDCC1AEB3FD5DF9EAA /* Sources */,
+				DFECF242AF64A8D17AC6C4C1C5E8F926 /* Frameworks */,
+				78A6B7DF5EF2623DB7572113F50E6DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76DACE2D7284144FFD3490B9C78C50A7 /* PBXTargetDependency */,
+				B961CF408531C477A6A954A27022B1E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-TYHDictionary_Example";
+			productName = Pods_TYHDictionary_Example;
+			productReference = 8707D267800744000A56D8F2A7ABC7AA /* Pods-TYHDictionary_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		42426EB30CA686039F8C8663D43AA1D6 /* TYHDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460E58C41F1AE9BEDA33741F1014F6D3 /* Build configuration list for PBXNativeTarget "TYHDictionary" */;
+			buildPhases = (
+				13EBEC76CAFBF490BB4FAEB4C48FC6F1 /* Headers */,
+				564FD5D53D284B397C8A97A2BBDC6CB8 /* Sources */,
+				A83D6F5D8C82F3F119E99CFC6DAC4195 /* Frameworks */,
+				7D1AE321F01C64BE7968AF26389AC8EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYHDictionary;
+			productName = TYHDictionary;
+			productReference = E7B5A761BFEDF7F0DDB81B294F4E6E5B /* TYHDictionary */;
+			productType = "com.apple.product-type.framework";
+		};
+		5FA019264226AC1EDE7198FB0D12969C /* TYHTestUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DCE0A363B23B6748E8DA63C29004B4 /* Build configuration list for PBXNativeTarget "TYHTestUtils" */;
+			buildPhases = (
+				21141D4DD8E951E5F5083EF9BFF40F79 /* Headers */,
+				9E7D1B3D8743370AD38353056AE3C3FC /* Sources */,
+				24ABDAE55780579724652F1781B8784D /* Frameworks */,
+				9E9827DD0CB01B69B6497412804DC465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYHTestUtils;
+			productName = TYHTestUtils;
+			productReference = 804F845C69BAD085E2FAD593458E1EBB /* TYHTestUtils */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4DE165DA58A17EFBC403E416B826CF6 /* Pods-TYHDictionary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 038636FEC12888B293C57BFD3349CBDE /* Build configuration list for PBXNativeTarget "Pods-TYHDictionary_Tests" */;
+			buildPhases = (
+				4A338EF1FC83C971BF4F7822DEF32FA3 /* Headers */,
+				32484DF52C7AA8CBF427A88CBFDFC1B6 /* Sources */,
+				9E8C050E70CEE7CD9B8F0BB2E2B607DF /* Frameworks */,
+				0CAF16E3FE9A5109B67F2404AC98A96C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				015D2DD05CC1CBDB3EDE486A0DB65698 /* PBXTargetDependency */,
+			);
+			name = "Pods-TYHDictionary_Tests";
+			productName = Pods_TYHDictionary_Tests;
+			productReference = 467F50E696D3B435FED2DB4F300193FE /* Pods-TYHDictionary_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A1FDE5C46BC887B26675A0E9349E90C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1111E6B15AF7570B354A5CA5EFE4F476 /* Pods-TYHDictionary_Example */,
+				D4DE165DA58A17EFBC403E416B826CF6 /* Pods-TYHDictionary_Tests */,
+				42426EB30CA686039F8C8663D43AA1D6 /* TYHDictionary */,
+				5FA019264226AC1EDE7198FB0D12969C /* TYHTestUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CAF16E3FE9A5109B67F2404AC98A96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A6B7DF5EF2623DB7572113F50E6DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1AE321F01C64BE7968AF26389AC8EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E9827DD0CB01B69B6497412804DC465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B8B1B2F8E7902EDCC1AEB3FD5DF9EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51E1F9657F18B22B6EF9CB1AFC3FE41 /* Pods-TYHDictionary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32484DF52C7AA8CBF427A88CBFDFC1B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0002BD67788B6E8187276CD85FB1A052 /* Pods-TYHDictionary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564FD5D53D284B397C8A97A2BBDC6CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B4ACB54D8B692D76DEB5A0882FB396 /* TYHDictionary.m in Sources */,
+				B4EA44F311D0DBE46C249D61E71C6829 /* TYHDictionary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7D1B3D8743370AD38353056AE3C3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1E4C2AA50EEA3E3244F66AEAA6B0B6 /* BaseTestActionTableVC.m in Sources */,
+				5FE4DFFE835757072858A8B3EE3C05A7 /* TYHTestUtils-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		015D2DD05CC1CBDB3EDE486A0DB65698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TYHDictionary_Example";
+			target = 1111E6B15AF7570B354A5CA5EFE4F476 /* Pods-TYHDictionary_Example */;
+			targetProxy = 8DFF76F1CF30862A402DD56534564A5F /* PBXContainerItemProxy */;
+		};
+		76DACE2D7284144FFD3490B9C78C50A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYHDictionary;
+			target = 42426EB30CA686039F8C8663D43AA1D6 /* TYHDictionary */;
+			targetProxy = F19C4C0C704EF3FE429D236123E0E2FF /* PBXContainerItemProxy */;
+		};
+		B961CF408531C477A6A954A27022B1E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYHTestUtils;
+			target = 5FA019264226AC1EDE7198FB0D12969C /* TYHTestUtils */;
+			targetProxy = 33F28841375F23ED738B0E737F994B52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19B289CAD7C119306D26BD71051AC79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E581210DC3A995EE3B5406290F0664 /* TYHDictionary.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYHDictionary/TYHDictionary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYHDictionary/TYHDictionary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYHDictionary/TYHDictionary.modulemap";
+				PRODUCT_MODULE_NAME = TYHDictionary;
+				PRODUCT_NAME = TYHDictionary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1B2F76122FEE97D517710EC406C549BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB2841EA244F0A1A82A8F57E23FE270 /* TYHDictionary.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYHDictionary/TYHDictionary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYHDictionary/TYHDictionary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYHDictionary/TYHDictionary.modulemap";
+				PRODUCT_MODULE_NAME = TYHDictionary;
+				PRODUCT_NAME = TYHDictionary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D47058050F02BFB0E898A4369390E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954B6C51504DE570D8F87CB1B84A783D /* TYHTestUtils.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYHTestUtils/TYHTestUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYHTestUtils/TYHTestUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYHTestUtils/TYHTestUtils.modulemap";
+				PRODUCT_MODULE_NAME = TYHTestUtils;
+				PRODUCT_NAME = TYHTestUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51D4AED8ECD66D0278B71FA36ABFDC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BA78B12AEDC2845CFBB18B61EB79A2 /* Pods-TYHDictionary_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYHDictionary_Example/Pods-TYHDictionary_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYHDictionary_Example/Pods-TYHDictionary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5591984403C42A32C62ED4263BDA0D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A80853DA61D3B42A4C0D0487A7017E2 /* Pods-TYHDictionary_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYHDictionary_Tests/Pods-TYHDictionary_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYHDictionary_Tests/Pods-TYHDictionary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83154E7E5B7DE349931C70EC95C3A25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986C4E480B4642688D8ED97F2D27EEF5 /* Pods-TYHDictionary_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYHDictionary_Example/Pods-TYHDictionary_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYHDictionary_Example/Pods-TYHDictionary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9E794D5C1BF490F045D4F08AE828AAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D53892F5C4B83D21270B27B9BE39B13 /* TYHTestUtils.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYHTestUtils/TYHTestUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYHTestUtils/TYHTestUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYHTestUtils/TYHTestUtils.modulemap";
+				PRODUCT_MODULE_NAME = TYHTestUtils;
+				PRODUCT_NAME = TYHTestUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CDE37E3EED1EB267AC5EA587442B0C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1478A701686F3C1E2603F6E1468E86 /* Pods-TYHDictionary_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYHDictionary_Tests/Pods-TYHDictionary_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYHDictionary_Tests/Pods-TYHDictionary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		038636FEC12888B293C57BFD3349CBDE /* Build configuration list for PBXNativeTarget "Pods-TYHDictionary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5591984403C42A32C62ED4263BDA0D13 /* Debug */,
+				CDE37E3EED1EB267AC5EA587442B0C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460E58C41F1AE9BEDA33741F1014F6D3 /* Build configuration list for PBXNativeTarget "TYHDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B289CAD7C119306D26BD71051AC79F /* Debug */,
+				1B2F76122FEE97D517710EC406C549BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FD2BCE6C14301BF9C593B8428E1FAA5 /* Build configuration list for PBXNativeTarget "Pods-TYHDictionary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83154E7E5B7DE349931C70EC95C3A25D /* Debug */,
+				51D4AED8ECD66D0278B71FA36ABFDC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6DCE0A363B23B6748E8DA63C29004B4 /* Build configuration list for PBXNativeTarget "TYHTestUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D47058050F02BFB0E898A4369390E28 /* Debug */,
+				9E794D5C1BF490F045D4F08AE828AAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

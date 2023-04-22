@@ -1,0 +1,22 @@
+{
+  "name": "TYHTestUtils",
+  "version": "0.1.0",
+  "summary": "A short description of TYHTestUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pencilCool/TYHTestUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pencilCool": "yhtangcoder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pencilCool/TYHTestUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TYHTestUtils/Classes/**/*"
+}

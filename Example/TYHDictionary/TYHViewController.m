@@ -7,6 +7,7 @@
 //
 
 #import "TYHViewController.h"
+@import TYHDictionary;
 
 @interface TYHViewController ()
 
@@ -17,13 +18,30 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self cellFor:@"make"];
+    [self cellFor:@"myself"];
+    [self cellFor:@"great"];
+    [self cellFor:@"again"];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
+- (void)cellFor:(NSString *)word {
+    __weak typeof(self) ws = self;
+    [self addCell:word action:^{
+        [ws showWord:word];
+    }];
+}
+- (void)showWord:(NSString *)word {
+    NSLog(@"word<%@> definition:\n",word);
+    NSArray *dvs =   [TYHDictionary definitionForTerm:word];
+    [dvs enumerateObjectsUsingBlock:^(NSAttributedString *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSLog(@"   %lu %@",(unsigned long)idx,obj.string);
+    }];
+    
+    NSLog(@"word<%@> long definition:\n",word);
+    NSArray *dvs1 =   [TYHDictionary longDefinitionForTerm:word];
+    [dvs1 enumerateObjectsUsingBlock:^(NSString *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSLog(@"   %lu %@",(unsigned long)idx,obj);
+    }];
+}
 @end

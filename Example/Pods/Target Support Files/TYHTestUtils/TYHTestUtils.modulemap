@@ -1,0 +1,6 @@
+framework module TYHTestUtils {
+  umbrella header "TYHTestUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

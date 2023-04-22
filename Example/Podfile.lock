@@ -1,0 +1,26 @@
+PODS:
+  - TYHDictionary (0.1.0)
+  - TYHTestUtils (0.1.0)
+
+DEPENDENCIES:
+  - TYHDictionary (from `../`)
+  - TYHTestUtils (from `https://github.com/pencilCool/TYHTestUtils.git`)
+
+EXTERNAL SOURCES:
+  TYHDictionary:
+    :path: "../"
+  TYHTestUtils:
+    :git: https://github.com/pencilCool/TYHTestUtils.git
+
+CHECKOUT OPTIONS:
+  TYHTestUtils:
+    :commit: 1875371802ace0d308c6c255306d5f09df591c44
+    :git: https://github.com/pencilCool/TYHTestUtils.git
+
+SPEC CHECKSUMS:
+  TYHDictionary: 0f764cc393debc84b7ef1384e8ecb2977ba683bf
+  TYHTestUtils: 91d7f5dbe500de12f8a5751fa998e6827ac0f480
+
+PODFILE CHECKSUM: d9714dc407555fff22af7e95b63bef75118afc69
+
+COCOAPODS: 1.11.2
