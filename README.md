@@ -50,6 +50,8 @@ A. transitive verb past tense, past participle made
 
 iOS11+
 
+Cannot be tested using the simulator.You must hava a iOS device
+
 ## Installation
 
 TYHDictionary is available through [CocoaPods](https://cocoapods.org). To install
