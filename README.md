@@ -50,7 +50,7 @@ A. transitive verb past tense, past participle made
 
 iOS11+
 
-Cannot be tested using the simulator.You must hava a iOS device
+Cannot be tested on simulator.You must hava a iOS device
 
 ## Installation
 
