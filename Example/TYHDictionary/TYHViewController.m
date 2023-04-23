@@ -22,6 +22,10 @@
     [self cellFor:@"myself"];
     [self cellFor:@"great"];
     [self cellFor:@"again"];
+    
+    [self testHasDefine:@"make"];
+    [self testHasDefine:@"makebibi"];
+    [self testHasDefine:@"makekkk"];
 }
 
 
@@ -42,6 +46,14 @@
     NSArray *dvs1 =   [TYHDictionary longDefinitionForTerm:word];
     [dvs1 enumerateObjectsUsingBlock:^(NSString *obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSLog(@"   %lu %@",(unsigned long)idx,obj);
+    }];
+}
+
+
+- (void)testHasDefine:(NSString *)term {
+    [self addCell:term action:^{
+       BOOL r =  [TYHDictionary hasDefinitionForTerm:term];
+        NSLog(@" term:%@ %@",term,r?@"has define":@"no define");
     }];
 }
 @end

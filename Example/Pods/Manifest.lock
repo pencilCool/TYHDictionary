@@ -1,5 +1,5 @@
 PODS:
-  - TYHDictionary (0.1.0)
+  - TYHDictionary (0.1.1)
   - TYHTestUtils (0.1.0)
 
 DEPENDENCIES:
@@ -18,7 +18,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/pencilCool/TYHTestUtils.git
 
 SPEC CHECKSUMS:
-  TYHDictionary: 0f764cc393debc84b7ef1384e8ecb2977ba683bf
+  TYHDictionary: 8f55438f1beb5ba5a1493f8483340166f94057c5
   TYHTestUtils: 91d7f5dbe500de12f8a5751fa998e6827ac0f480
 
 PODFILE CHECKSUM: d9714dc407555fff22af7e95b63bef75118afc69

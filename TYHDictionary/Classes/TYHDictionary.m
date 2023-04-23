@@ -36,6 +36,16 @@ static SEL sharedSEL(void) {
     return selector;
 };
 
+static SEL sharedHasDefineSEL(void) {
+    static SEL selector;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        NSString *s = [NSString stringWithFormat:@"%@%@",@"_hasDefinition",@"ForTerm:"] ;
+        selector = NSSelectorFromString(s);
+    });
+    return selector;
+};
+
 + (NSArray<NSAttributedString *> *)definitionForTerm:(NSString *)term {
     SEL selector = sharedSEL();
     if(![sharedDictManager() respondsToSelector:selector]) {
@@ -67,6 +77,22 @@ static SEL sharedSEL(void) {
         NSString *def = [item longDefinition];
         [result addObject:def];
     }
+    return result;
+}
+
+
+// bugfix: https://stackoverflow.com/questions/7017281/performselector-may-cause-a-leak-because-its-selector-is-unknown
+
+
++ (BOOL)hasDefinitionForTerm:(NSString *)term {
+    SEL selector = sharedHasDefineSEL();
+    if(![sharedDictManager() respondsToSelector:selector]) {
+        return NO;
+    }
+    IMP imp = [sharedDictManager() methodForSelector:selector];
+    BOOL (*func)(id, SEL, NSString *) = (void *)imp;
+    BOOL result = func(sharedDictManager(),selector,term);
+
     return result;
 }
 @end
